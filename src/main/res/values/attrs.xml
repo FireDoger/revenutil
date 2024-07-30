@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ControlCheckbox">
+        <attr name="checkbox_left_height" format="dimension" />
+        <attr name="checkbox_left_width" format="dimension" />
+        <attr name="checkbox_right_height" format="dimension" />
+        <attr name="checkbox_right_width" format="dimension" />
+        <attr name="checkbox_top_height" format="dimension" />
+        <attr name="checkbox_top_width" format="dimension" />
+        <attr name="checkbox_bottom_height" format="dimension" />
+        <attr name="checkbox_bottom_width" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ControlTextView">
+        <attr name="textview_left_height" format="dimension" />
+        <attr name="textview_left_width" format="dimension" />
+        <attr name="textview_right_height" format="dimension" />
+        <attr name="textview_right_width" format="dimension" />
+        <attr name="textview_top_height" format="dimension" />
+        <attr name="textview_top_width" format="dimension" />
+        <attr name="textview_bottom_height" format="dimension" />
+        <attr name="textview_bottom_width" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorPickerView">
+        <attr name="indicatorColor" format="color" /><!--指示点颜色-->
+        <attr name="indicatorEnable" format="boolean" /><!--是否启用指示点-->
+        <attr name="orientation" format="integer">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
